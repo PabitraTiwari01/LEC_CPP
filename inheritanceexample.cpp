@@ -3,16 +3,23 @@ using namespace std;
 class Account{
     public:
     float salary = 50000;
-};
-class programmer: public Account{
-    public:
-    float bonus = 40000;
+    float dashainbonus = 70000;
+
+     Account(){
+       cout<<"this is account"<<endl; 
+    } // construtor are those  special methods which has same name as class's name and has no return type
+}; // base class
+class programmer: public Account
+{
+    
+
+    
 }; // derived class
-int main() {
-    programmer p1;
-    Account a1;
-    cout<<"salary:"<<p1.salary<<endl;
-    cout<<"salary:"<<a1.salary<<endl;
-    cout<<"bonus:"<<p1.bonus<<endl;
+int main() 
+{
+    Account Account1;
     return 0;
+
+
+
 }
