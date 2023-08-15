@@ -3,8 +3,8 @@ using namespace std;
 class A{
     int x;
     public:
-     void getnum(int x){
-        this->x=x;
+     void getnum(int p){
+        this->x=p;
         
         }
     void shownum(){

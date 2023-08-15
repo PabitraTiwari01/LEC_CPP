@@ -5,7 +5,7 @@ class base{
     base(){
         cout<<"This is constructor of base class"<<endl;
     }
-    ~base(){
+    ~ base(){
         cout<<"This is distructor of base class"<<endl;
     }
 };
@@ -19,6 +19,7 @@ class derived:public base{
     }
 };
 int main(){
-    derived d1;
+    base b;
+    derived d;
     return 0;
 }
